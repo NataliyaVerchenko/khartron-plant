@@ -1,0 +1,25 @@
+body{
+    font-size: 18px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 500;
+    line-height: 2;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+    }
+.container{
+    max-width:1024px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+footer ,header{
+    background: #0061e4;
+      }
+ .bottom{
+     padding-left: 15px;
+     padding-right: 15px;
+     display: flex;
+     justify-content: space-between;}
