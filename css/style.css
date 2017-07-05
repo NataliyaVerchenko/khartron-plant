@@ -473,11 +473,11 @@ background: rgba(0, 0, 10, 0.6);
   font-size: 20px;
 
   cursor: pointer;
-  transition: 3s linear;
+  transition: 1s linear;
   }
   .transition-rotate:hover {
-   -webkit-transform: scale(1.5);
-   transform: scale(1.5);
+   -webkit-transform: scale(2);
+   transform: scale(2);
   }
   .alt-text{
   font-size: 13px;
