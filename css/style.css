@@ -76,7 +76,7 @@ footer{
       text-decoration: none;
           color: #545050;
       }
-      article >.container{
+      article >.container,.text-center{
       text-align: center;}
 article.article h1{
     text-align: left;
@@ -125,8 +125,8 @@ color: #696c72;
     padding: 0 33px;
 }
 .list-cards >li{
-     width:50%;
-     padding:0 33px;
+     width:33%;
+   /*  padding:0 33px;*/
  }
  @media(max-width:640px){
       .list-cards >li{
