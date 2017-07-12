@@ -21,11 +21,11 @@ body{
         width: 100%;
 
     }
-* {
-    box-sizing: border-box;
+*,*:before, *:after {
+    box-sizing: inherit;
 }
 .wrapper ,.main-bg {
-background-color: rgba(251, 253, 255, 0);
+    background-color: rgba(251, 253, 255, 0);
     background: linear-gradient(to top, rgba(252, 253, 255, 0.55) 0%, rgb(255, 255, 255) 100%);
     }
 header ,footer{
@@ -38,29 +38,41 @@ header ,footer{
      /*  background: linear-gradient(to right, rgba(46,74,117,1) 0%, rgba(46,74,117,1) 100%);*/
        background: linear-gradient(to right, rgba(46, 74, 117, 0.8) 0%, rgb(0, 5, 12) 100%);
       }
+      section{
+      }
+
 .header-bar {
 /*
     position: fixed;*/
     width: 100%;
     z-index: 1000;
     border-bottom: 1px solid rgba(27, 28, 29, 0.39);
-    padding: 0 15px;
+    padding: 0 1px;
     box-shadow: 0px 2px 6px 0px rgba(148, 147, 147, 0.2);
-    display: flex;
+/*    display: flex;
     align-items: baseline;
-    justify-content: space-between;
+    justify-content: space-between;*/
      }
  .logo{
     display: inline-block;
 }
-.navbar-flex{
+.logo a img{
     display:flex;
 }
-.navbar-nav ul{
+.aligne{
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+.navbar-flex{
+  /*  display:flex;
+        flex-wrap: wrap;*/
+}
+.navbar{
     margin: 0 20px;
     padding:0;
     list-style: none;
-    display: flex;
+   display: flex;
     align-items: center;
     flex-wrap: wrap;
 
@@ -87,6 +99,10 @@ header ,footer{
  }
  .dropdown-menu{
  display:none;}
+ .menu-opener{
+ display:none;}
+
+
  /*SLIDER*/
 
 .carousel-inner>.item>a>img, .carousel-inner>.item>img {
@@ -185,6 +201,7 @@ article,.justify-content-center{
 .breadcrumbs{
     background-color: #fdfdff;
     user-select: none;
+    margin-top: 8px;
 
 
 }
@@ -197,6 +214,10 @@ align-items: center;
     display: inline-block;
 
     padding: 0.5em 0.75em;
+}
+.breadcrumbs:after{
+content:" ";
+display: table;
 }
 /***********SIDEBAR************/
 /*SEARCH*/
@@ -221,8 +242,8 @@ margin-top: 10px;
     border-top: 2px solid #e4e4e4;
     }
 .widget .date {
-    display: grid;
-    text-align: center;
+ /*   display: grid;*/
+   /* text-align: center;*/
     margin-top: 5px;
     padding: 8px 10px;
     background:#536889;
@@ -231,7 +252,7 @@ margin-top: 10px;
 .widget .date>span {
     display: block;
     text-align: center;
-   /* font-family: "Fjalla One";*/
+  font-family: "Fjalla One";
     color: #fff;
 }
 .widget .date>span.month {
@@ -274,9 +295,19 @@ ul.unstyled, ol.unstyled {
     justify-content: flex-start;
     }
  ul.tag-cloud{
+    padding:0;
     margin: 0 0 10px 1px;
     border-top: 3px solid #e4e4e4;
+    font-size:0;
     }
+    .tag-cloud >li{
+     font-size:16px;
+         display: inline-block;
+        }
+            .tag-cloud >li >a{
+
+                 display:block;
+                }
 .widget-border-top{
      border-top: 3px solid #e4e4e4;
      }
