@@ -70,7 +70,7 @@ a.navbar-height{
 }
 
 
-.header{
+.header,footer{
     background: rgba(46,74,117,1);
     background: -moz-linear-gradient(left, rgba(46,74,117,1) 0%, rgba(46,74,117,1) 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(46,74,117,1)), color-stop(100%, rgba(46,74,117,1)));
@@ -318,3 +318,41 @@ a .navbar-bra{
         	color: white;
         }
     }*/
+
+              /*FOOTER*/
+    .footer{
+         color: #FFFFFF;
+        }
+.footer p{
+color:#fff;}
+    .navbar-footer{
+        padding:0;
+        list-style: none;
+    }
+    .form-group >.form-control,
+    .form-footer >textarea{
+        padding: 5px;
+        border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 1);
+        margin: 0 0 5px;
+        width: 100%;
+        -webkit-transition: 0.5s ease all;
+        transition: 0.5s ease all;
+        background-color: transparent;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        border-radius: 0;
+    }
+        .form-footer .form-group button{
+         color:#fff;
+         background: rgba(163, 160, 151, 0.17);
+         border: 2px solid #515251;
+         border-radius: 2px;
+         }
+    .form-group >.btn-form:active:hover{
+    color: #333;
+    background-color: #08101b;
+    border-color: #8c8c8c;
+
+    }
