@@ -145,12 +145,16 @@ section{
     font-size: 15px;
     line-height: 30px;
     margin: 0 auto;
-     width: 61.33%;
+    width: 61.33%;
+
 
 }
+.text-content{
+   padding: 5px;
+   text-align: justify;
+        }
 .section-content{
-
-    padding: 5px;
+    padding: 17px;
     text-align: left;
 }
 .content-bottom{
@@ -161,6 +165,8 @@ section{
 .image-content img{
     height: 292px;
 }
+.block--square2{
+    transition: opacity 1s,transform .6s;}
 .content-bottom:before{
 /*    border-bottom: 1px solid #c2dffc;
     content: "";
