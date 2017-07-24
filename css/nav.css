@@ -117,7 +117,7 @@ a .navbar-bra{
     /*-----------------------------------------------------------------------------------*/
     /*	section-services
     /*-----------------------------------------------------------------------------------*/
-.section-services,.section-article,.section-cards{
+section{
     text-align: center;
 }
 .section-services h1,.section-article h1,.section-cards h1{
@@ -150,11 +150,16 @@ a .navbar-bra{
 }
 .section-content{
 
-
+    padding: 5px;
+    text-align: -webkit-left;
 }
 .content-bottom{
+    text-align: center;
     position: relative;
    /*  border-bottom: 10px solid #ecfafe;*/
+}
+.image-content img{
+    height: 292px;
 }
 .content-bottom:before{
 /*    border-bottom: 1px solid #c2dffc;
