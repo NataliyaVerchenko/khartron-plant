@@ -151,7 +151,7 @@ section{
 .section-content{
 
     padding: 5px;
-    text-align: -webkit-left;
+    text-align: left;
 }
 .content-bottom{
     text-align: center;
