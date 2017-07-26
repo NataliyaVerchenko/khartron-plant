@@ -247,6 +247,27 @@ section{
                 -o-transform: scale(1.1);
                 }
 
+                 .image_zoom {
+                width: 100%; /*ширена блока*/
+                height: 290px; /*высота*/
+                overflow: hidden; /*отображается только область внутри элемента.*/
+                margin:  auto; /*выравнивание картинки по центру*/ }
+
+                .image_zoom img  {
+                width: 100%; /*ширина картинки*/
+                height: 290px; /*высота картинки*/
+                -webkit-transition: all 1.5s ease; /*параметр 1.5s это время эффекта*/
+                -moz-transition: all 1.5s ease;
+                -o-transition: all 1.5s ease;
+                -ms-transition: all 1.5s ease;
+                transition: all 1.5s ease; }
+
+                .image_zoom img:hover {
+                width:103%; /*ширина картинки, чем больше, тем больше будет зум*/
+                height: 300px; /*высота картинки, чем больше, тем больше будет зум*/
+                cursor: pointer; /*меняет курсор при наведении*/
+                }
+
 
 .card-wrapp{
     background: white;
