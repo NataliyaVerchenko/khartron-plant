@@ -12,7 +12,7 @@ body {
    /* overflow:hidden;*/
 }
 *, *::before, *::after {
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 img{
     max-width:100%;
@@ -247,6 +247,14 @@ section{
    padding: 5px;
    text-align: justify;
         }
+.card-wrapp,.text-content::before{
+        display:table;
+        content:'';
+        }
+card-wrapp,.text-content::after{
+ clear:both;
+ }
+
 .section-content{
     padding: 17px;
     text-align: left;
