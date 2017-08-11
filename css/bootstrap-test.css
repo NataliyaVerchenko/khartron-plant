@@ -146,7 +146,7 @@ hr{
     display: block;
     margin-bottom: 20px;
 }
-#dg img{
+#dg img,.wb img{
     width: 100%;
     max-width: 100%;
 
@@ -225,3 +225,49 @@ hr{
     }
 
 }
+.wb{
+    padding-top: 35px;
+    margin-bottom: 0;
+}
+.wb h4{
+    font-size: 28px;
+}
+.wb img{
+
+    -webkit-transform: none;
+    transform: none;
+    -webkit-transition: width .2s ease-in-out,margin .2s ease-in-out,-webkit-transform .75s ease;
+    transition: width .2s ease-in-out,margin .2s ease-in-out,-webkit-transform .75s ease;
+    transition: width .2s ease-in-out,margin .2s ease-in-out,transform .75s ease;
+    transition: width .2s ease-in-out,margin .2s ease-in-out,transform .75s ease,-webkit-transform .75s ease;
+}
+.wb img:hover {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+}
+
+
+
+/*
+.float-l{
+    float: left;
+    -webkit-transform: translate(15%,0);
+    transform: translate(41%,0);
+
+}
+@media (max-width: 1024px){
+    .float-l{
+        float: none;
+
+    }
+}
+
+.aligne{
+    width: 600px;
+    float: left;
+    display: block;
+    position: absolute;
+    left: -190px;
+    top: 99px;
+    z-index: 1;
+}*/
