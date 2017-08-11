@@ -237,8 +237,8 @@ hr{
     -webkit-transform: none;
     transform: none;
     -webkit-transition: width .2s ease-in-out,margin .2s ease-in-out,-webkit-transform .75s ease;
-    transition: width .2s ease-in-out,margin .2s ease-in-out,-webkit-transform .75s ease;
-    transition: width .2s ease-in-out,margin .2s ease-in-out,transform .75s ease;
+   /* transition: width .2s ease-in-out,margin .2s ease-in-out,-webkit-transform .75s ease;
+    transition: width .2s ease-in-out,margin .2s ease-in-out,transform .75s ease;*/
     transition: width .2s ease-in-out,margin .2s ease-in-out,transform .75s ease,-webkit-transform .75s ease;
 }
 .wb img:hover {
