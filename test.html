@@ -5,56 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Title</title>
-
-    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 <body class="page-pathfinder">
 <div class="wrapper">
-    <div class="header">
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
-            <div class="row row-flex">
-                <div class="col-md-3">
-                    <a class="navbar-brand navbar-height" href="#">
-                        <img src="images/kp-logo.png" alt="Troyads">
-                    </a>
-                </div>
-                <div class="col-md-9">
-                    <div class="navbar navbar-custom nav-height">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand"><img src="images/kp-logo.png" alt="Troyads"></a>
 
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-target="#responsive-menu"
-                                    data-toggle="collapse">
-                                <span class="sr-only">open navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-
-                        </div>
-                        <div class="collapse navbar-collapse" id="responsive-menu">
-                            <ul class="nav navbar-nav nav-bg">
-                                <li class="activ"><a href="#">главная</a></li>
-                                <li><a href="#">продукция<span class="caret"></span></a></li>
-                                <li><a href="#">производство</a></li>
-                                <li><a href="#">галерея</a></li>
-                                <li><a href="#">новости</a></li>
-                                <li><a href="#">объявления</a></li>
-                                <li><a href="contact.html">контакты</a></li>
-
-                            </ul>
-                        </div>
-
-                    </div>
-                </div>
             </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right nav-bg">
+                    <li class="active"><a href="#">главная</a></li>
+                    <li><a href="#">продукция</a></li>
+                    <li><a href="#">производство</a></li>
+                    <li><a href="#">галерея</a></li>
+                    <li><a href="#">новости</a></li>
+                    <li><a href="#">объявления</a></li>
+                    <li><a href="contact.html">контакты</a></li>
+                </ul>
+            </div>
+
         </div>
-
-
     </div>
+
+
     <div class="main">
         <section class="main-slider">
             <div class="container-fluid">
@@ -134,7 +123,7 @@
                                 <img src="images/icon-order_estimates.png" alt="Tech Support">
                             </div>
                             <div class="title"><h2>Изделия из пластмасс</h2></div>
-                            <div class="descr"><p>Производство  изделий из пластмасс высокого качества</p>
+                            <div class="descr"><p>Производство изделий из пластмасс высокого качества</p>
                             </div>
                         </div>
                         <div class="col-md-3">
@@ -142,7 +131,8 @@
                                 <img src="images/icon-techsupport.png" alt="Tech Support">
                             </div>
                             <div class="title"><h2>Штампы и прессформы</h2></div>
-                            <div class="descr"><p>Изготовление штампов, прессформ, приспособлений, производственной оснастки</p>
+                            <div class="descr"><p>Изготовление штампов, прессформ, приспособлений, производственной
+                                оснастки</p>
                             </div>
                         </div>
                     </div>
@@ -154,16 +144,19 @@
             <div class="container">
                 <div class="sectioin-title"><h1>Производствo</h1></div>
                 <div class="row">
-                    <div class="col-md-6 block--square2">
+                    <div class="col-md-6">
+                        <div class="title-content"><h2><a href="#">Монтажно-сборочное производство</a></h2></div>
                         <div class="card-wrapp">
+
                             <div class="section-content">
-                                <div class="title-content"><h2>Монтажно-сборочное производство </h2></div>
+
                                 <div class="image-content image_zoom">
                                     <img class="img" src="images/img-1.png" alt="">
                                 </div>
                                 <div class="text-content">
                                     <p>Выполняет работы по сборке и монтажу плат,блоков,приборов,стоек,осуществляет
-                                        регулировку функциональных узлов, проведение климатических и механических испытаний</p>
+                                        регулировку функциональных узлов, проведение климатических и механических
+                                        испытаний</p>
                                 </div>
                                 <!--  <button type="submit" value="" class="button button--turquoise">read more</button>-->
 
@@ -171,10 +164,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 block--square2">
+                    <div class="col-md-6">
+                        <div class="title-content"><h2><a href="#">Инструментальное производство</a></h2></div>
+
                         <div class="card-wrapp">
+
                             <div class="section-content">
-                                <div class="title-content"><h2>Инструментальное производство</h2></div>
+
                                 <div class="image-content image_zoom">
                                     <img class="img" src="images/img-2.png" alt="">
                                 </div>
@@ -193,9 +189,11 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6">
+                        <div class="title-content"><h2><a href="#">Механическое производство</a></h2></div>
                         <div class="card-wrapp">
+
                             <div class="section-content">
-                                <div class="title-content"><h2>Механическое производство </h2></div>
+
                                 <div class="image-content image_zoom">
                                     <img class="img" src="images/img-2.png" alt="">
                                 </div>
@@ -210,9 +208,12 @@
                         </div>
                     </div>
                     <div class="col-md-6">
+                        <div class="title-content"><h2><a href="#">Производство изделий из пластмасс</a></h2></div>
                         <div class="card-wrapp">
+
+
                             <div class="section-content">
-                                <div class="title-content"><h2>Производство изделий из пластмасс</h2></div>
+
                                 <div class="image-content image_zoom">
                                     <img class="img" src="images/img-1.png" alt="">
                                 </div>
@@ -233,100 +234,58 @@
         </section>
         <section class="section-article bgr-gradient">
             <div class="container">
-                <div class="sectioin-title"><h1>Description & details</h1></div>
+                <div class="sectioin-title"><h1>НОВОСТИ И СОБЫТИЯ</h1></div>
                 <div class="section-content">
                     <div class="typewriter">
                         <p class="typewriter-h1">О предприятии
 
-                            НПП «Хартрон-Плант», созданное на базе завода «Электроприбор», является основным производственным предприятием корпорации «Хартрон» и владеет всем спектром технологических процессов, присущих электронному приборостроению.
+                            НПП «Хартрон-Плант», созданное на базе завода «Электроприбор», является основным
+                            производственным предприятием корпорации «Хартрон» и владеет всем спектром технологических
+                            процессов, присущих электронному приборостроению.
 
-                            Продолжая традиционно создавать приборы систем управления ракетно-космической техники, коллектив успешно решает задачи проектирования и изготовления аппаратуры и изделий для различных отраслей экономики.
+                            Продолжая традиционно создавать приборы систем управления ракетно-космической техники,
+                            коллектив успешно решает задачи проектирования и изготовления аппаратуры и изделий для
+                            различных отраслей экономики.
 
-                            Численность сотрудников составляет более 350 человек. На предприятии действует система менеджмента качества, соответствующая требованиям международного стандарта ISO 9001.
-
-                            Подробнее о предприятии
-
-                            .</p>
+                            Численность сотрудников составляет более 350 человек. На предприятии действует система
+                            менеджмента качества, соответствующая требованиям международного стандарта ISO 9001.</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="section-newsletter">
-            <div class="container">
-                <div class="sectioin-title"><h1></h1></div>
-                <div class="section-content">
-                    <div class="test_css_image_zoom">
-                        <img src="" alt="" />
-                    </div>
-                </div>
-            </div>
-        </section>
+
         <!--test section start-->
-
-        <section>
+        <div class="block-wrapp block-bgr-gray w">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-4">
-                        <div class="panel panel-default text-center">
-                            <div class="panel-heading">
-                                <h1>Национальные лидеры Украины</h1>
-                            </div>
-                            <div class="panel-body">
-                                <p>Институт биографических исследований опубликовал статьи о творческой деятельности Лученко О. А. и Сватенко С. А. в книге "Украина. Золотой фонд нации"</p>
-
-                                <p><strong>Endless</strong> Amet</p>
-                            </div>
-                            <div class="panel-footer">
-                                <!-- <h3>$29</h3>-->
-                                <!-- <h4>per month</h4>-->
-                                <button class="btn btn-lg">more</button>
-                            </div>
+                    <div class="col-md-4">
+                        <div class="block_img">
+                            <a href=""><img src="images/sotr_02.jpg" alt=""></a>
                         </div>
                     </div>
-                    <div class="col-sm-4">
-                        <div class="panel panel-default text-center">
-                            <div class="panel-heading">
-                                <h1>Признание года-2010</h1>
-                            </div>
-                            <div class="panel-body">
-                                <p>24 июня в Торгово-промышленной палате Украины (г. Киев) состоялось торжественное награждение участников Национальной презентационно-рейтинговой программы «Деловой имидж Украины.</p>
+                    <div class="col-md-8">
+                        <div class="block_text">
+                            <h2><a class="text-decor-none" href="#">История предприятия НПП «Хартрон-Плант»</a></h2>
+                            <p> Завод "Электроприбор" был основан в 1961 году для изготовления и отработки аппаратуры систем
+                                управления баллистических ракет и ракет-носителей.</p><br><br>
 
-                                <p><strong>Endless</strong> Amet</p>
-                            </div>
-                            <div class="panel-footer">
-                               <!-- <h3>$29</h3>-->
-                                <!-- <h4>per month</h4>-->
-                                 <button class="btn btn-lg">more</button>
-                             </div>
-                         </div>
-                     </div>
-                     <div class="col-sm-4">
-                         <div class="panel panel-default text-center">
-                             <div class="panel-heading">
-                                 <h1>Бразильско-украинский проэкт </h1>
-                             </div>
-                             <div class="panel-body">
-                                 <p>  7 июля члены делегации во главе с Президентом Бразильского космического агентства Марко Антонио Рауппом прибыла на НПП Хартрон-Плант.Для ознакомления с состоянием реализации совместного космического проекта "Циклон-4"  </p>
+                                <p>Изделия 15А14, 15А35, 15А18, «Циклон-2», «Циклон-3», ракета-носитель «Энергия», модули
+                                космической станции «Мир», космические аппараты «Целина» и другие – далеко не полный перечень
+                                того, чем по праву гордится коллектив завода и сегодня.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-                                 <p><strong>Endless</strong> Amet</p>
-                             </div>
-                             <div class="panel-footer">
-                                 <!-- <h3>$29</h3>-->
-                                 <!-- <h4>per month</h4>-->
-                                 <button class="btn btn-lg">more</button>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-             </div>
-         </section>
-         <!--end-->
-        <section class="map" id="map">
+        <!--end-->
+        <section class="map block-bgr-gray" id="map">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
                         <div id="googleMap">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10252.867540621703!2d36.224917850000004!3d50.0260317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1501238622321" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10252.867540621703!2d36.224917850000004!3d50.0260317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1501238622321"
+                                    width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
