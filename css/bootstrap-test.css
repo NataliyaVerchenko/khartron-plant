@@ -17,6 +17,7 @@ body{
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling:touch;
     margin-top: 70px;
+    min-width:320px;
 }
 h1, h2, h3, h4, h5 ,h6{
     font-family: 'Raleway';
@@ -106,7 +107,7 @@ hr{
     color: #fff;
     font-size: 25px;
     font-weight: 300;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
     /*-----------------------------------------------------------------------------------*/
@@ -266,4 +267,144 @@ hr{
     .tilt {
          opacity: 1;
     }
+}
+/*Анимация логотипа*/
+
+.slideTop{
+    animation-name: slideTop;
+    -webkit-animation-name: slideTop;
+
+    animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+
+    visibility: visible !important;
+}
+
+@keyframes slideTop {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes slideRight {
+    0% {
+        -webkit-transform: translateY(-100%);
+    }
+    100% {
+        -webkit-transform: translateY(0%);
+    }
+}
+.hidden{
+opacity:0;
+}
+.visible{
+opacity:1;
+}
+/*
+
+*/
+/*Анимация вправо*//*
+.slideRight{
+    animation-name: slideRight;
+    -webkit-animation-name: slideRight;
+
+    animation-duration: 4s;
+    -webkit-animation-duration: 4s;
+
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+
+    visibility: visible !important;
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(-150%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@-webkit-keyframes slideRight {
+    0% {
+        -webkit-transform: translateX(-150%);
+    }
+    100% {
+        -webkit-transform: translateX(0%);
+    }
+}
+.hidden{
+opacity:0;
+}
+.visible{
+opacity:1;
+}
+/*Анимация вlevo*/
+/*.slideLeft{
+    animation-name: slideLeft;
+    -webkit-animation-name: slideLeft;
+
+    animation-duration: 9s;
+    -webkit-animation-duration: 9s;
+
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+
+    visibility: visible !important;
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(150%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@-webkit-keyframes slideLeft {
+    0% {
+        -webkit-transform: translateX(150%);
+    }
+    100% {
+        -webkit-transform: translateX(0%);
+    }
+}
+.hidden{
+opacity:0;
+}
+.visible{
+opacity:1;
+}*/
+.hidden{
+opacity:0;
+}
+.visible{
+opacity:1;
+}
+
+
+.typing
+{
+    max-width:100%;
+    margin:0 auto;
+    width: 30em;
+    white-space: nowrap;
+    overflow:hidden;
+    -webkit-animation: type 9s steps(50, end);
+    animation: type 9s steps(50, end);
+}
+
+@keyframes type{
+    from { width: 0; }
+}
+@-webkit-keyframes type{
+    from { width: 0; }
 }
