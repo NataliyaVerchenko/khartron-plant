@@ -136,3 +136,52 @@ body{
       visibility: visible;
       opacity: 1;
     }
+
+
+.hero.is-bgr{
+background: url(../images/work.jpg) no-repeat  center top;
+background-size: cover;
+/*opacity:0.9;*/
+}
+
+.button.is-info.is-inverted {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #252525;
+}
+.button.is-info.is-inverted:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #3273dc;
+}
+
+#tab{
+margin-top:10px;
+margin-bottom:30px;}
+
+.tabs ul {
+
+    border-bottom-color: rgba(219, 219, 219, 0.03);
+
+
+}
+.tabs.is-boxed a:hover {
+    background-color: #ffffff;
+    border-bottom-color: #00d1b2;
+}
+.tabs.is-boxed li.is-active a {
+    background-color: #fff;
+    border-color: rgba(219, 219, 219, 0.07);
+    border-bottom-color: transparent!important;
+}
+.hero.is-info a.nav-item.is-active, .hero.is-info a.nav-item{
+color: #2d2c2c;
+}
+.hero.is-info a.nav-item.is-active, .hero.is-info a.nav-item-logo{
+    color: #00d1b2;
+}
+
+.hero.is-info a.nav-item.is-active, .hero.is-info a.nav-item:hover {
+   color: #252525;
+}
+.hero.is-info a.nav-item.is-active, .hero.is-info a.nav-item-logo:hover{
+    color: #ffffff;
+}
