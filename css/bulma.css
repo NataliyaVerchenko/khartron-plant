@@ -136,7 +136,9 @@ body{
       visibility: visible;
       opacity: 1;
     }
-
+a:hover {
+    color: #fff;
+}
 
 .hero.is-bgr{
 background: url(../images/work.jpg) no-repeat  center top;
@@ -150,7 +152,7 @@ background-size: cover;
 }
 .button.is-info.is-inverted:hover {
     background-color: rgba(255, 255, 255, 0.15);
-    color: #3273dc;
+    color: #05b79c;
 }
 
 #tab{
@@ -176,12 +178,24 @@ margin-bottom:30px;}
 color: #2d2c2c;
 }
 .hero.is-info a.nav-item.is-active, .hero.is-info a.nav-item-logo{
-    color: #00d1b2;
+    color: #fff;
 }
 
 .hero.is-info a.nav-item.is-active, .hero.is-info a.nav-item:hover {
    color: #252525;
 }
 .hero.is-info a.nav-item.is-active, .hero.is-info a.nav-item-logo:hover{
-    color: #ffffff;
+     color: #00d1b2;
+}
+.notification.is-success,.notification.is-info,.notification.is-primary,.notification.is-warning,.notification.is-danger{
+    background: url(https://www.toptal.com/designers/subtlepatterns/patterns/ravenna.png);
+    /* background-color: #23d160; */
+    color: #423e3e;
+}
+
+.footer {
+    color: #fff;
+    background: url(https://www.toptal.com/designers/subtlepatterns/patterns/footer_lodyas.png);
+    /* background-color: #f5f5f5; */
+    padding: 3rem 1.5rem 6rem;
 }
