@@ -583,4 +583,16 @@ button.button:hover{
     .clear{
     clear:both;}
 
+    .brand-image {
+        width: 100%;
+        height: auto;
+        vertical-align: middle;
+    }
+@media (min-width:320px){
+.brand-image {
+    width: 238px;
+
+}
+
+}
 
