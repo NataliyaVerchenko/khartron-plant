@@ -161,8 +161,9 @@ hr{
     -ms-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;*/
-    opacity: 0.9;
+    opacity: 0.7;
     transition: box-shadow 0.8s;
+
 }
 .tilt:hover{
    /* -webkit-transform: rotate(-10deg);
@@ -195,7 +196,8 @@ hr{
     -moz-transform: scale(1.1);
     -o-transform: scale(1.1);
 }
-
+.wrapper-img{
+margin-top: 20px;}
 
     /*-----------------------------------------------------------------------------------*/
     /*	block What can I do?
