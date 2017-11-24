@@ -65,18 +65,20 @@ header ,footer{
     flex-wrap: wrap;
 }
 .navbar{
-    margin: 0 20px;
+    margin: 0;
     padding:0;
     list-style: none;
-   display: flex;
+    display: flex;
     align-items: center;
     flex-wrap: wrap;
 
 }
 .navbar >li{
-    padding: 10px;
-    margin: 0 10px;
-    }
+       display: inline-block;
+       margin: 0;
+       padding: 0;
+   }
+
 .navbar >li >a {
      color: #fff;
      margin: 18px 16px 18px 16px;
